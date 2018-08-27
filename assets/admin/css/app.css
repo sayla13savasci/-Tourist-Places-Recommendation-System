@@ -1,0 +1,158 @@
+.panel-default, .panel-heading{
+    background-color: #fff;
+}
+.panel-default > .panel-heading {
+  background-color: #fff;
+}
+.panel{
+  border-top: 5px solid #2C2D2D;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+#image-error {
+	padding-top: 10px;
+}
+
+textarea {
+	resize: none;
+}
+@media (min-width: 992px) {
+    .hovermenu {
+        position: relative;
+    }
+    .hovermenu:hover > ul {
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+    }
+    .navbar-nav .hovermenu ul {
+        -webkit-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        -moz-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        -o-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+
+        margin-right: -50%;
+        border: none;
+
+    }
+    .hovermenu .dropdown-menu {
+        min-width: 200px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+    .hovermenu > ul {
+        position: absolute;
+        top: 130%;
+        visibility: hidden;
+        display: block;
+        opacity: 0;
+        left: -260px;
+    }
+    .hovermenu > ul.start-right {
+        right: 0;
+        left: auto;
+    }
+    .hovermenu > ul li {
+        position: relative;
+    }
+    .hovermenu > ul li:hover > ul {
+        visibility: visible;
+        opacity: 1;
+        left: 100%;
+    }
+    .hovermenu > ul li:hover > ul.show-right {
+        right: 100%;
+    }
+}
+.notifications {
+  float: right;
+  background: #FAFAFA;
+  width: 300px;
+  position: relative;
+  border-radius: 3px;
+  padding: 10px;
+}
+.notifications .notifications-header {
+  border-bottom: 1px solid #E8E8E8;
+  padding-bottom: 15px;
+}
+.notifications .notifications-header .notifications-total {
+  float: right;
+}
+.notifications .notifications-items {
+  padding: 0px;
+  list-style: none;
+}
+.notifications .notifications-items img {
+	float: left;
+	margin-right: 27px;
+	margin-top: 10px;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+}
+
+.msg.notifications .notifications-items span{
+    line-height: 20px;
+    display: block;
+}
+.notifications .notifications-items .item-name {
+  display: block;
+  padding-top: 10px;
+  font-size: 16px;
+  color: #3d3d3d;
+}
+.notifications .notifications-items .item-price {
+  color: #6394F8;
+  margin-right: 8px;
+}
+.notifications .notifications-items .item-quantity {
+  color: #ABB0BE;
+}
+.notification-item{
+	padding-left: 5px;
+	margin-bottom: 5px;
+    border-bottom: 1px solid #5d5d5d;
+    padding-bottom: 10px;
+}
+.notification-count {
+    position: absolute;
+    top: -7px;
+    right: -2px;
+    padding: 0px 5px 0px 4px;
+    color: #fff;
+    background: #EF5350;
+    border-radius: 2px;
+    font-size: 12px;
+    /* height: 5px; */
+}
+.nav .fa {
+    padding: 2px !important;
+    color: #aaa;
+    font-size: 20px;
+}
+.checkdate {
+      margin: 0 auto 30px;
+      padding: 20px 20px;
+      border: 1px solid #ebeef1;
+      background-color: #F6F9FC;
+  }
+  .input-prepend{
+    display: inline;
+  }
+  .dropForm .form-control {
+      border: 1px solid #f0f3f6 !important;
+      border-radius: 0;
+      display: inline-block;
+      height: 40px;
+      font-size: 13px;
+      box-shadow: none !important;
+      max-width: 200px;
+      vertical-align: middle;
+  }
+  .checkdate form .btn{
+    border-radius: 0px;
+    height: 38px;
+  }
